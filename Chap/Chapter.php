@@ -7,13 +7,6 @@ use Chap\DB;
 class Chapter
 {
 
-
-	public function __construct(){
-		
-		DB::getInstance();	
-
-	}
-
 	public function createDB()
 	{
 

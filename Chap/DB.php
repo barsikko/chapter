@@ -6,6 +6,12 @@ class DB
 {
 	private static $instance;
 
+		public function __construct(){
+		
+		DB::getInstance();	
+
+	}
+
 	static public function getInstance() :\PDO
 
 	{
